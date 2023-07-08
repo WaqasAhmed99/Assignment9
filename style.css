@@ -1,0 +1,52 @@
+strong{
+    font-size: larger;
+}
+h2{
+    text-align: center; 
+    font-style: italic;
+    line-height: 0%;
+}
+p{
+    text-align: center;
+}
+.text{
+    width: fit-content;
+margin-top: 0%;
+padding-top: 0%;
+background-color: #E0B78C;
+}
+.top{
+    background-color: #dadada;
+}
+.asd{
+    text-align: center;
+    display: inline-flex;
+}
+#submit{
+    font-weight: bold;
+    font-size: small;
+    width: 60px;
+    height: 25px;
+    border-radius: 50px;
+border-color: aqua;
+background-color: blue;
+color: white;
+}
+#cancel{
+    font-weight: bold;
+    font-size: smaller;
+    width: 70px;
+    height: 25px;
+    border-radius: 50px;
+border-color: blue;
+background-color: white;
+}
+#resize{
+    font-weight: bold;
+    font-size: smaller;
+    width: 70px;
+    height: 25px;
+    border-radius: 50px;
+border-color: rgba(2, 2, 2, 0);
+background-color: grey;
+}

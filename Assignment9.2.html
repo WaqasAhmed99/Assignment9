@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0032b37446.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    
+
+
+    <div class="text">
+        <div class="top">
+            <i class="fa-solid fa-circle" style="color: #fb1818;"></i>
+            <i class="fa-solid fa-circle" style="color: #ffb638;"></i>
+            <i class="fa-solid fa-circle" style="color: #c0bfbf;"></i>
+        
+           <div class="asd">
+                <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp; Keyboard Maestro Custom HTML Prompt -- Example by Waqas Ahmed</small>
+            </div>
+        </div>
+        
+        <h2>KM Custom HTML Form Example Using AppleScript</h2>
+        <p>(by WaqasAhmed)</p>
+        <table border="1">
+            <tr>
+                <td class="font" width="210">
+                    <label for="name"><strong>Name:</strong></label>
+                </td>
+                <td>
+                    <input type="text" value="WaqasAhmed" name="name" id="name">
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="email"><strong>Email:</strong></label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" value="waqas01949@gmail.com">
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="pass"><strong>Password:</strong></label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="pass" value="******">
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="App"><strong>Approval Required</strong><br>Click on the button or text to <br> check/uncheck.</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="App" id="App">Do you approve
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="Ch"><strong>Pick Your Favorite:</strong><br>Click on the button or text to <br>select.</label>
+                </td>
+                <td>
+                    <input type="radio" name="Pick" id="Ch"> Choice A <br><input type="radio" name="Pick" id="Pick" checked>Choice B <br><input type="radio" name="Pick" id="Pick"> Choice C
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="menu"><strong>Popup Menu:</strong></label>
+                </td>
+                <td>
+                    <input type="text" value="Texas -- TX" id="menu">
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="list"><strong>List</strong><br>Setup Options: <br>
+                    <ul>
+                        <li>Number of rows to disply</li>
+                        <li>Allow Multi-select</li>
+                    </ul></label>
+                </td>
+                <td>
+                    <select name="list" id="list" size="5" multiple>
+                        <option value="">California -- CA</option>
+                        <option value="Colorado -- CO">Colorado -- CO</option>
+                        <option value="">Connecticut -- CN</option>
+                        <option value="">Dalifornia -- DA</option>
+                        <option value="">Dolorado -- DO</option>
+                        <option value="">Dalifornia -- CN</option>
+                    </select>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for="KM"><strong>Field Ignored by KM</strong></label>
+                </td>
+                <td>
+                    <input type="text" name="KM" id="KM" value="10,384">
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <label for=""><strong>Text Area</strong></label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="40" rows="5">Now is the time for all good men to the aid of their country</textarea>
+                </td>
+            </tr>
+
+    </table>
+    <br><br>
+    <input type="submit" name="submit" value="Save" id="submit">
+    
+    <input type="reset" name="Cancel" value="Cancel" id="cancel">
+
+    <input type="reset" name="Resize" value="Resize" id="resize">
+    
+</div>
+
+
+
+</body>
+</html>
